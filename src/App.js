@@ -1,16 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-	return (
-		<div className="App">
-			<h1>Landing Page</h1>
-			<h2>
-				<a href="http://localhost:3001/cloudflix">Cloudflix</a>
-			</h2>
-		</div>
-	);
+class App extends Component {
+	state = {};
+
+	render() {
+		return <div />;
+	}
 }
 
 export default App;
